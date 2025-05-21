@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boolean attribute code</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Boolean attribute</h1>
+    <p>This chapter describes the different types for the Boolean attribute</p>
+<form action="#">
+    <fieldset>
+    <legend>Personalia</legend>
+    <label for="name">First name</label><br>
+    <input type="text" id="name" name="name" placeholder="Sayedur" required><br>
+    <label for="name">Last name</label><br>
+    <input type="text" id="name" name="name" placeholder="Rahman" required><br><br>
+ <label for="email">Email</label><br>
+ <input type="email" id="email" required placeholder="sayedur****@gamil.com" ><br>
+ <label for="password">password</label><br>
+ <input type="password" id="password" required placeholder="******"><br><br>
+ <textarea name="comments" id="comments" rows="8" cols="25" placeholder="please write your comments"></textarea><br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+  </fieldset>
+</form>
+<h1>Radio</h1>
+<p>Choose your favorite Web language:</p>
+<form action="#">
+<input type="radio" id="html"  value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript"  value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+<h1>Checkboxes</h1>
+<p>A form with checkboxes:</p>
+<form>
+  <input type="checkbox" id="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2"  value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a cycle</label>
+</form>
+<h1>select element</h1>
+<p>The select element defines a drop-down list:</p>
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="Tesla">Tesla</option>
+  <option value="BMW">BMW</option>
+  <option value="audi">Audi</option>
+</select>
+<h1>Datalist</h1>
+<p>The datalist element</p>
+<form action="#">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit" value="submit">
+</form>
+<h1> type color</h1>
+<form>
+  <label for="color">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor">
+</form>
+<h1>type date</h1>
+<form>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br>
+  <label for="datemin">Enter a date after 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="datemax">Enter a date before 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  <label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+<h1>Input Type File</h1>
+<form>
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <input type="submit" value="send" >
+</form>
+<h1>Input Type Number</h1>
+<form>
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10">
+</form>
+<h1>Input Type Range</h1>
+<form>
+  <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+</form>
+<h1>Input Type Search</h1>
+<form>
+  <label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit" value="submit">
+</form>
+<h1>Input Type Tel</h1>
+<form>
+  <label for="phone">Enter your phone number:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="+810 90-****-****"><br>
+  <small>Format: 090-4567-8910</small><br><br>
+  <input type="submit" value="submit">
+</form>
+<h1>Input Type Time</h1>
+<form>
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit" value="submit">
+</form>
+<h1>Input Type Week</h1>
+<form>
+  <label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+  <input type="submit" value="submit">
+</form>
+</body>
+</html>

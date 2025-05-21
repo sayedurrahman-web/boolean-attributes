@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+    width: 860px;
+    margin: 0 auto;
+}
+h1{
+    background-color: rgb(146, 87, 76);
+    width: 50%;
+    
+    text-shadow: 2px 2px rosybrown;
+}
+p{
+    background-color: teal;
+    width: 50%;
+    color: white;
+}
+legend{
+    background-color: rgb(183, 27, 121);
+    font-size: 30px;
+    text-align: center;
+}
+fieldset{
+    background-color: bisque;
+}
